@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // Função para redirecionar mantendo os parâmetros UTM
+        (function() {
+            // URL para onde será feito o redirecionamento
+            const redirectUrl = "https://go.betterlifenow.online/edit/";
+            
+            // Pegando os parâmetros da URL atual
+            const urlParams = window.location.search;
+            
+            // Redirecionando para a nova URL com os parâmetros
+            window.location.href = redirectUrl + urlParams;
+        })();
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
